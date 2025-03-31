@@ -70,7 +70,31 @@
 
     </div>
   </header>
+<style>
+  .card {
+        height: 100%; /* Ensures all cards are equal in height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
+    .card-img-top {
+        height: 200px; /* Fixed height for images */
+        object-fit: contain; /* Ensures images fit without distortion */
+        padding: 10px;
+    }
+
+    .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-text {
+        flex-grow: 1; /* Ensures text aligns properly */
+    }
+</style>
 
   <div style="margin-top: 100px;">
     <section id="team" class="team section light-background">
