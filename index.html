@@ -172,136 +172,163 @@
 
     
 
-<div style="margin-top: 100px;">
-  <section id="team" class="team section light-background">
-      <div class="container section-title text-center" data-aos="fade-up">
-          <h2>Products</h2>
-          <p>CHECK OUR PRODUCTS</p>
-      </div>
+<style>
+  .card {
+        height: 100%; /* Ensures all cards are equal in height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-      <div class="container">
-          <div class="row gy-4 gx-4"> 
-              
-              <!-- Product 1 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/4 Ply Laminate Pouches.png" class="card-img-top" alt="4 Ply Laminate Pouches">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">4 Ply Laminate Pouches</h5>
-                          <p class="card-text">Packaging manufacture and export a wide range of 3Ply/4PLY Laminate Pouches. These pouches combine multiple layers to provide enhanced protection.</p>
-                      </div>
-                  </div>
-              </div>
+    .card-img-top {
+        height: 200px; /* Fixed height for images */
+        object-fit: contain; /* Ensures images fit without distortion */
+        padding: 10px;
+    }
 
-              <!-- Product 2 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/pvc.png" class="card-img-top" alt="PVC">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">PVC</h5>
-                          <p class="card-text"> Polyvinyl chloride (PVC) is a versatile plastic used in a wide range of applications, including packaging, construction, and more. Rahul Packaging is dedicated in creating high-quality medical plastics ensuring superior solutions for healthcare industry.</p>
-                      </div>
-                  </div>
-              </div>
+    .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-              <!-- Product 3 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/AluminiumBlisterFoil.png" class="card-img-top" alt="Aluminium Blister Foil">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Aluminium Blister Foil</h5>
-                          <p class="card-text">Commonly used in pharmaceuticals for packaging tablets and capsules.Primer coated Aluminium foil, hard tempered with HSL coating is available in various thickness ranging from 20 microns to 30 microns as requested by customers.</p>
-                      </div>
-                  </div>
-              </div>
+    .card-text {
+        flex-grow: 1; /* Ensures text aligns properly */
+    }
+</style>
 
-              <!-- Product 4 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/Polyester Laminates.png" class="card-img-top" alt="Polyester Laminates">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Polyester Laminates</h5>
-                          <p class="card-text">Polyester laminates are widely used in flexible packaging. They offer durability, moisture resistance, and 
-                            Rahul Packaging offers excellent printability, provides innovative packing solutions making them suitable for a range of applications.
-                            </p>
-                      </div>
-                  </div>
-              </div>
+  <div style="margin-top: 100px;">
+    <section id="team" class="team section light-background">
+        <div class="container section-title text-center" data-aos="fade-up">
+            <h2>Products</h2>
+            <p>CHECK OUR PRODUCTS</p>
+        </div>
 
-              <!-- Product 5 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/Polypropylene Granules.png" class="card-img-top" alt="Polypropylene Granules">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Polypropylene Granules</h5>
-                          <p class="card-text">Offers high quality polypropylene granules in India, offers high-quality PP resins to fulfil your manufacturing needs. Polypropylene (PP) Granules are the building blocks for a wide range of plastic products you encounter every day.</p>
-                      </div>
-                  </div>
-              </div>
+        <div class="container">
+            <div class="row gy-4 gx-4"> 
+                
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/4 Ply Laminate Pouches.png" class="card-img-top" alt="4 Ply Laminate Pouches">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">4 Ply Laminate Pouches</h5>
+                            <p class="card-text">Packaging manufacture and export a wide range of 3Ply/4PLY Laminate Pouches. These pouches combine multiple layers to provide enhanced protection.</p>
+                        </div>
+                    </div>
+                </div>
 
-              <!-- Product 6 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/Alu-Alu.png" class="card-img-top" alt="Alu-Alu">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Alu-Alu</h5>
-                          <p class="card-text">Rahul Packaging also manufactures Alu-Alu foils used exclusively in the pharmaceutical industry for blister packaging. 
-                            Alu Alu Foil is available in 45 & 50 Mic. Aluminum foil offering better mileage and cost saving to the customers.
-                            </p>
-                      </div>
-                  </div>
-              </div>
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/pvc.png" class="card-img-top" alt="PVC">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">PVC</h5>
+                            <p class="card-text"> Polyvinyl chloride (PVC) is a versatile plastic used in a wide range of applications, including packaging, construction, and more. Rahul Packaging is dedicated in creating high-quality medical plastics ensuring superior solutions for healthcare industry.</p>
+                        </div>
+                    </div>
+                </div>
 
-              <!-- Product 7 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/Aluminium Foil Po.png" class="card-img-top" alt="Aluminium Foil Poly">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Aluminium Foil Poly</h5>
-                          <p class="card-text">Aluminium foil laminated with polyethylene offers a versatile packaging solution, often used in food packaging. 
-                            Aluminium foil is safer and healthier than other materials for making sealing films. The surface of the aluminium foil is very clean, and any bacteria or microorganisms cannot grow on the surface of the aluminium foil.
-                            </p>
-                      </div>
-                  </div>
-              </div>
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/AluminiumBlisterFoil.png" class="card-img-top" alt="Aluminium Blister Foil">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Aluminium Blister Foil</h5>
+                            <p class="card-text">Commonly used in pharmaceuticals for packaging tablets and capsules.Primer coated Aluminium foil, hard tempered with HSL coating is available in various thickness ranging from 20 microns to 30 microns as requested by customers.</p>
+                        </div>
+                    </div>
+                </div>
 
-              <!-- Product 8 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/Glassine Paper Poly.png" class="card-img-top" alt="Glassine Paper Poly">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Glassine Paper Poly</h5>
-                          <p class="card-text">Rahul Packaging is a trusted name among Glassine Paper Suppliers;Glassine paper is a smooth and glossy paper that is often combined with polyethylene to create packaging materials suitable for items like confectionery, cosmetics, and pharmaceuticals.</p>
-                      </div>
-                  </div>
-              </div>
+                <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/Polyester Laminates.png" class="card-img-top" alt="Polyester Laminates">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Polyester Laminates</h5>
+                            <p class="card-text">Polyester laminates are widely used in flexible packaging. They offer durability, moisture resistance, and 
+                              Rahul Packaging offers excellent printability, provides innovative packing solutions making them suitable for a range of applications.
+                              </p>
+                        </div>
+                    </div>
+                </div>
 
-              <!-- Product 9 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/Triple Laminate Foils.png" class="card-img-top" alt="Triple Laminate Foils">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">Triple Laminate Foils</h5>
-                          <p class="card-text">Rahul Packaging also offers packing for conservative products like confectionery, tea, consumables etc. These laminates offer a combination of strength, barrier properties, and printability.</p>
-                      </div>
-                  </div>
-              </div>
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/Polypropylene Granules.png" class="card-img-top" alt="Polypropylene Granules">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Polypropylene Granules</h5>
+                            <p class="card-text">Offers high quality polypropylene granules in India, offers high-quality PP resins to fulfil your manufacturing needs. Polypropylene (PP) Granules are the building blocks for a wide range of plastic products you encounter every day.</p>
+                        </div>
+                    </div>
+                </div>
 
-              <!-- Product 10 -->
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card shadow-sm">
-                      <img src="assets/img/pvdc.png" class="card-img-top" alt="PVDC">
-                      <div class="card-body text-center">
-                          <h5 class="card-title">PVDC</h5>
-                          <p class="card-text">Rahul Packaging RMCL utilises an advanced coating technology to produce a two-layer PVDC coated PVC structure which offer medium barrier protection against moisture and gas.</p>
-                      </div>
-                  </div>
-              </div>
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/Alu-Alu.png" class="card-img-top" alt="Alu-Alu">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alu-Alu</h5>
+                            <p class="card-text">Rahul Packaging also manufactures Alu-Alu foils used exclusively in the pharmaceutical industry for blister packaging. 
+                              Alu Alu Foil is available in 45 & 50 Mic. Aluminum foil offering better mileage and cost saving to the customers.
+                              </p>
+                        </div>
+                    </div>
+                </div>
 
-          </div>
-      </div>
-  </section>
+                <!-- Product 7 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/Aluminium Foil Po.png" class="card-img-top" alt="Aluminium Foil Poly">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Aluminium Foil Poly</h5>
+                            <p class="card-text">Aluminium foil laminated with polyethylene offers a versatile packaging solution, often used in food packaging. 
+                              Aluminium foil is safer and healthier than other materials for making sealing films. The surface of the aluminium foil is very clean, and any bacteria or microorganisms cannot grow on the surface of the aluminium foil.
+                              </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/Glassine Paper Poly.png" class="card-img-top" alt="Glassine Paper Poly">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Glassine Paper Poly</h5>
+                            <p class="card-text">Rahul Packaging is a trusted name among Glassine Paper Suppliers;Glassine paper is a smooth and glossy paper that is often combined with polyethylene to create packaging materials suitable for items like confectionery, cosmetics, and pharmaceuticals.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/Triple Laminate Foils.png" class="card-img-top" alt="Triple Laminate Foils">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Triple Laminate Foils</h5>
+                            <p class="card-text">Rahul Packaging also offers packing for conservative products like confectionery, tea, consumables etc. These laminates offer a combination of strength, barrier properties, and printability.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow-sm">
+                        <img src="assets/img/pvdc.png" class="card-img-top" alt="PVDC">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">PVDC</h5>
+                            <p class="card-text">Rahul Packaging RMCL utilises an advanced coating technology to produce a two-layer PVDC coated PVC structure which offer medium barrier protection against moisture and gas.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 </div>
+
 
 
 <section id="clients" class="clients section light-background">
@@ -663,23 +690,22 @@
       </div><!-- End Useful Links -->
 
       <!-- Products -->
-      <div class="col-lg-2 col-md-3 footer-links">
+       <!-- Products -->
+       <div class="col-lg-2 col-md-3 footer-links">
         <h4>Our Products</h4>
         <ul>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">4 Ply Laminate Pouches</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">4 Ply Laminate Pouches</a></li>
           <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">PVC</a></li> -->
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Aluminium Blister Foil</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Polyester Laminates</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Polypropylene Granules</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Alu-Alu</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Aluminium Foil Poly</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Glassine Paper Poly</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">Triple Laminate Foils</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="#">PVDC</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Aluminium Blister Foil</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Polyester Laminates</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Polypropylene Granules</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Alu-Alu</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Aluminium Foil Poly</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Glassine Paper Poly</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">Triple Laminate Foils</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="products.html">PVDC</a></li>
         </ul>
-        
       </div><!-- End Products -->
-
       <!-- Newsletter -->
       <div class="col-lg-4 col-md-12 footer-newsletter">
         <h4>Subscribe to Our Newsletter</h4>
